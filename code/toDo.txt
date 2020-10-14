@@ -2,3 +2,11 @@
     代表两个的相似度。越接近1相似度越高
     难点1.采样点数可能不同，这是因为地层可能被压缩导致的。
 
+游沅刚近期任务：
+    写一个raw_data_getter类，向算法提供数据；
+
+    raw_data_getter:
+        getWellCount():int 返回有多少口井
+        getwellAllName():返回所有井的名字
+        getWellAllColumnNames(String wellName):返回wellName井所有的列名
+        getWellColumnDataByName(String wellName,String columnName):返回double型数组，wellName井columnName列的数据
