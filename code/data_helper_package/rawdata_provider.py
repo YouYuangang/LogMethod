@@ -5,7 +5,7 @@ import re
 '''
 作者：Y.G. You
 创建时间：2020.10.14
-得到所有井的名字，及对应的曲线名字
+返回所有井的名字，及对应的曲线名字
 根据井的名字和曲线得到某列测井数据
 '''
 class WellDataHeadInfo:
@@ -151,8 +151,9 @@ class RawDataProvider:
             wellDataHeadInfo.filePath = filePath
             self.wellname_well_headinfo_dict[wellDataHeadInfo.wellName] = wellDataHeadInfo
 
-    def printinfo(self):
+    def print_info(self):
         for value in self.wellname_well_headinfo_dict:
+            print("------------------------------读取到的测井信息------------------------------")
             print("wellName:"+(self.wellname_well_headinfo_dict[value]).wellName)
             print("startDepth:"+str((self.wellname_well_headinfo_dict[value]).startDepth))
             print("endDepth:"+str((self.wellname_well_headinfo_dict[value]).endDepth))
@@ -160,5 +161,5 @@ class RawDataProvider:
             print("columnNames:")
             print((self.wellname_well_headinfo_dict[value]).columnNames)
             print("filePath:"+self.wellname_well_headinfo_dict[value].filePath)
-            print("------------------------------------------------------------")
+            print("------------------------------  结束分割线  ------------------------------")
         

@@ -1,7 +1,8 @@
 #_*_coding:utf-8_*_
-from data_helper_module import rawdata_provider
-from log_plot import simple_log_plot
-from data_helper_module import data_preprocesser
+from data_helper_package import rawdata_provider
+from log_plot_package import simple_log_plot
+from data_helper_package import data_preprocesser
+
 #数据接口测试，入口文件
 test = rawdata_provider.RawDataProvider()
 #打印有多少口井
@@ -19,3 +20,4 @@ data_preprocesser = data_preprocesser.DataPreprocesser()
 AC_data2 = data_preprocesser.get_column_floatdata('well116','AC')
 print(AC_data2[-10:-1])
 simple_log_plot.plot_log(depth,AC_data2)
+
