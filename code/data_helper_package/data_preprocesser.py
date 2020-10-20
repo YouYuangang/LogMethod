@@ -7,7 +7,6 @@ def is_valid_data(data):
         return True
     return False
 class DataPreprocesser:
-    
     rawDataGetter = rawdata_provider.RawDataProvider()
     
     def get_column_floatdata(self,wellName,columnName):

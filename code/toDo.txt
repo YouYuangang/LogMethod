@@ -19,11 +19,14 @@
     done
 2020.10.19
     写一个WellSegmentProvider类，根据井名提供该井的地层信息
-        get_segments_fromwell(wellname):返回一个列表，为该井所有的地层名
+        get_segmentnames_fromwell(wellname):返回一个列表，为该井所有的地层名
         if_exist_segment(wellname,segmentname):boolean型，wellname井是否含有segmentname地层
         get_segment_columndata(wellname,segmentname,columnname)
         get_segment_depthdata(wellname,segmentname)
         get_wellnames_contains_segment(segmentname)
-        
+        get_segment_startdepth(wellname,segment)
+        get_segment_enddepth(wellname,segment)
+        get_segment_colorstring(wellname,segment)
+    done
 
 

@@ -1,37 +1,37 @@
 #_*_coding:utf-8_*_
+'''
+作者：Y.G. You
+创建时间：2020.10.14
+'''
 import sys
 import os.path
 import re
 '''
-作者：Y.G. You
-创建时间：2020.10.14
-返回所有井的名字，及对应的曲线名字
-根据井的名字和曲线得到某列测井数据
+RawDataProvider:返回所有井的名字，及对应的曲线名字。根据井的名字和曲线得到某列测井数据
+        get_well_count():int 返回有多少口井
+        get_well_allnames():返回所有井的名字
+        get_well_Headinfo_byName(wellname):返回wellname井的井头信息（数据文本的头信息）
+        get_Well_allcolumnnames(wellname):返回wellName井所有的列名（测井曲线名称）
+        get_well_startdepth(wellname):返回测井数据开始的深度
+        get_well_enddepth(wellname)：返回测井数据结束的深度
+        get_column_floatdata_byname(String wellName,String columnName):返回float型数组，wellName井columnName列的数据
+        get_segement_column_floatData(self,wellName,columnName,startDepth,endDepth):返回某一深度区间的某列的测井数据
 '''
-class WellDataHeadInfo:
-    def __init__(self):
-        self.wellName = ""
-        self.startDepth = 0.0
-        self.endDepth = 0.0
-        self.level = 0.0
-        self.columnNames = []
-        self.filePath = ""
 class RawDataProvider:
     #数据的目录
     data_dir=os.path.join(os.path.abspath(__file__),os.pardir,os.pardir,os.pardir,'data')
     #数据目录的文件列表
-    filename_list = []
+    filename_list = os.listdir(data_dir)
     #井名与该井文件路径对应关系
     wellname_well_headinfo_dict = {}
     #初始化，得到井文件列表，读取井文件头信息，保存井名与该井文件的路径对应关系
     def __init__(self):
         self.filename_list = os.listdir(self.data_dir)
-        self.wellname_well_headinfo_dict = {}
         for filename in self.filename_list:
             filePath = os.path.join(self.data_dir,filename)
             if(os.path.isfile(filePath)):
                 self.__putinto_dict_byfilepath(filePath)
-    '''返回data目录下有多少口井'''
+    #返回data目录下有多少口井
     def get_well_count(self):
         return len(self.wellname_well_headinfo_dict)
     #返回所有井的名字
@@ -48,6 +48,10 @@ class RawDataProvider:
     #根据井名返回井文件的头部信息
     def get_well_Headinfo_byName(self,wellName):
         return self.wellname_well_headinfo_dict[wellName]
+    def get_well_startdepth(self,wellName):
+        return self.wellname_well_headinfo_dict[wellName].startDepth
+    def get_well_enddepth(self,wellName):
+        return self.wellname_well_headinfo_dict[wellName].endDepth
     #根据井名与曲线名返回一列数据
     def get_column_floatData(self,wellName,columnName):
         wellHeadInfo = self.wellname_well_headinfo_dict[wellName]
@@ -105,7 +109,7 @@ class RawDataProvider:
         data = self.get_well_depthdata(wellName)
         startIndex = round((startDepth-wellHeadInfo.startDepth)/wellHeadInfo.level)
         endIndex = round((endDepth-wellHeadInfo.startDepth)/wellHeadInfo.level)
-        return data[startIndex:endIndex]
+        return data[startIndex:endIndex+1]
     #根据行索引获得深度
     def get_depth_byindex(self,wellName,index):
         wellInfo = self.wellname_well_headinfo_dict[wellName]
@@ -162,4 +166,11 @@ class RawDataProvider:
             print((self.wellname_well_headinfo_dict[value]).columnNames)
             print("filePath:"+self.wellname_well_headinfo_dict[value].filePath)
             print("------------------------------  结束分割线  ------------------------------")
-        
+class WellDataHeadInfo:
+    def __init__(self):
+        self.wellName = ""
+        self.startDepth = 0.0
+        self.endDepth = 0.0
+        self.level = 0.0
+        self.columnNames = []
+        self.filePath = ""
