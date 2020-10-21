@@ -94,7 +94,7 @@ class WellSegmentProvider:
         startindex = self.rawdata_provider.get_index_bydepth(wellname,segmentinfo.startdepth)
         endindex = self.rawdata_provider.get_index_bydepth(wellname,segmentinfo.enddepth)
         data = self.rawdata_provider.get_well_depthdata(wellname)
-        return data[startindex,endindex+1]
+        return data[startindex:endindex+1]
     def get_wellnames_contains_segment(self,segmentname):
         names = []
         for wellname in self.wellname_segments_dict:

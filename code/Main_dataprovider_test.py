@@ -27,3 +27,8 @@ print("well84包含的地层："+str(wellsegmentProvider.get_segmentnames_fromwe
 print("well84龙潭组地层的开始深度："+str(wellsegmentProvider.get_segment_startdepth("well84","龙潭组")))
 #打印那些包含石炭系地层的井名
 print("含有石炭系地层的井："+str(wellsegmentProvider.get_wellnames_contains_segment("石炭系")))
+#获取well84井龙潭组地层的AC数据
+longtanzu_ac_data = wellsegmentProvider.get_segment_columndata("well84","龙潭组","AC")
+#获取well84龙潭组地层的深度数据
+depth = wellsegmentProvider.get_segment_depthdata("well84","龙潭组")
+simple_log_plot.plot_log(depth,longtanzu_ac_data)
