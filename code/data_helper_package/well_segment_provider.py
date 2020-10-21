@@ -5,6 +5,7 @@
 '''
 import os
 import re
+import sys
 from .rawdata_provider import RawDataProvider
 '''
 WellSegmentProvider类，根据井名提供该井的地层信息；根据井名和地层信息提供某一列测井数据
@@ -32,13 +33,15 @@ WellSegmentProvider类，根据井名提供该井的地层信息；根据井名�
         get_segment_colorstring(wellname,segment)
         返回一个字符串，表示wellname井segment地层应该用什么颜色表示
 '''
+#项目根目录
+path = os.path.dirname(os.path.abspath(os.path.dirname(sys.argv[0])))
 class WellSegmentProvider:
     rawdata_provider = RawDataProvider()
     wellname_segments_dict = {}
     segment_dir = ""
     filelist = []
     def __init__(self):
-        segment_dir = os.path.join(os.path.abspath(__file__),os.pardir,os.pardir,os.pardir,'data','segmentInfo')
+        segment_dir = os.path.join(path,'data','segmentInfo')
         filelist = os.listdir(segment_dir)
         for filename in filelist:
             wellname = filename.strip(".txt")

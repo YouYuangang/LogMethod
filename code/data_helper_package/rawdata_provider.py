@@ -17,16 +17,19 @@ RawDataProvider:返回所有井的名字，及对应的曲线名字。根据井�
         get_column_floatdata_byname(String wellName,String columnName):返回float型数组，wellName井columnName列的数据
         get_segement_column_floatData(self,wellName,columnName,startDepth,endDepth):返回某一深度区间的某列的测井数据
 '''
+#项目根目录
+path = os.path.dirname(os.path.abspath(os.path.dirname(sys.argv[0])))
 class RawDataProvider:
     #数据的目录
-    data_dir=os.path.join(os.path.abspath(__file__),os.pardir,os.pardir,os.pardir,'data')
+    data_dir=os.path.join(path,'data')
     #数据目录的文件列表
     filename_list = os.listdir(data_dir)
     #井名与该井文件路径对应关系
     wellname_well_headinfo_dict = {}
     #初始化，得到井文件列表，读取井文件头信息，保存井名与该井文件的路径对应关系
     def __init__(self):
-        self.filename_list = os.listdir(self.data_dir)
+        self.filename_list = os.listdir(RawDataProvider.data_dir)
+        print("*****"+RawDataProvider.data_dir)
         for filename in self.filename_list:
             filePath = os.path.join(self.data_dir,filename)
             if(os.path.isfile(filePath)):
