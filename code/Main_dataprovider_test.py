@@ -4,7 +4,6 @@ from log_plot_package import simple_log_plot
 from data_helper_package import data_preprocesser
 from data_helper_package import well_segment_provider
 
-
 #测试rawdata_provider.RawDataProvider
 #数据接口测试，入口文件
 test = rawdata_provider.RawDataProvider()

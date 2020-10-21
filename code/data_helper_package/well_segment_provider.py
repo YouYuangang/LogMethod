@@ -34,7 +34,7 @@ WellSegmentProvider类，根据井名提供该井的地层信息；根据井名�
         返回一个字符串，表示wellname井segment地层应该用什么颜色表示
 '''
 #项目根目录
-path = os.path.dirname(os.path.abspath(os.path.dirname(sys.argv[0])))
+path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 class WellSegmentProvider:
     rawdata_provider = RawDataProvider()
     wellname_segments_dict = {}
