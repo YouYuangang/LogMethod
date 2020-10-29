@@ -93,7 +93,7 @@ simple_log_plot.cross_plot2d_for_2well([rawac,rawrt],[rawac2,rawrt2],"AC","GR")
 
 
 
-#根据AC与GR的交汇算相似度,缩小两倍
+#根据AC与RT的交汇算相似度,缩小两倍
 rawdataprovider = rawdata_provider.RawDataProvider()
 wellnamestemp = rawdataprovider.get_well_allnames()
 columns = ["AC","RT"]
