@@ -38,7 +38,7 @@ def data_except_invalid(*args):
         data = args[0]
         j=0
         for i in range(len(data)):
-            if( is_valid_data(data[i])):
+            if(is_valid_data(data[i])):
                 data[j]= data[i]
                 j+=1
         del data[j:]
