@@ -1,0 +1,16 @@
+!Processing parameters
+
+4686.0, 4842.0
+A = .62, ACP = 0.203, GMN1 = 0., AAC = 0., BCP = 1.67,
+CP = 1., CPOP = 0.0, DF = 1., DG = 2.65, DSH = 2.65,
+NSH = 28., PFG = 2, TF = 620.0, TM = 180.0, TSH = 180.0,
+BITS = 21.6, C = 0, HDY = 0.8, HF = 0., PF = 0.,
+SRHM = .5, GCUR = 3.7, M = 2.15, N = 2., RMF = .32,
+RSH = 2.5, RW = 0.25, SHCT = 40.0, SHFG = 1, SIRR = 40.,
+SWOP = 3, GMN2 = 0., GMN3 = 0., GMN4 = 0., GMN5 = 100.0,
+GMX1 = 100., GMX2 = 100., GMX3 = 100., GMX4 = 100., GMX5 = 2.5,
+ACNL = 0., ADEN = 0., AGR = 0., ANLL = 0., ART = 0.,
+ASP = 0.
+
+EOZ
+END
