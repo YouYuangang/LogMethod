@@ -6,7 +6,6 @@
 '''
 import rawdata_provider
 import numpy as np
-import log_stream_and_configure
 '''
 is_valid_data(data):返回值布尔型，判断数据是否是有效值
 data_except_invalid(depth,data):无返回值，删除数据中的无效值
@@ -18,6 +17,7 @@ getkeypoint_from_rawdata(depth,data)
 INVALID_DATA = -99999.0
 INVALID_DATA2 = -1000.0
 PRECISION = 0.0001
+logstream = open("logmethod_log.txt", "w")
 #判断数据是否有效
 def is_valid_data(data):
     if(abs(data-INVALID_DATA)>PRECISION and data>INVALID_DATA2):
@@ -50,8 +50,6 @@ def data_except_invalid(*args):
             if( is_valid_data(data[i])):
                 data[j], depth[j] = data[i], depth[i]
                 j+=1
-        if(j>=len(data)):
-            return
         del data[j:]
         del depth[j:]
 #对多列数据删除数据无效的采样点
@@ -75,8 +73,6 @@ def except_invalid_for_multicolumn(datas,depth=None):
             index = index+1
         else:
             continue
-    if(index>=len(datas[0])):
-            return
     for k in range(columncount):
         del(datas[k][index:])
 #对具有无效数据的采样点，用平均值代替，并不删除
@@ -127,30 +123,11 @@ def preprocess_for_Jaccrad(seris1x,seris1y,seris2x,seris2y):
     seris2y_ = seris2y.copy()
     except_invalid_for_multicolumn([seris1x_,seris1y_])
     except_invalid_for_multicolumn([seris2x_,seris2y_])
-    #如果波动范围小，则放大振幅
-    minx = min(min(seris1x_),min(seris2x_))
-    maxx = max(max(seris1x_),max(seris2x_))
-    if(abs(maxx-minx)<90.0):
-        times = 100.0/abs(maxx-minx)
-        for i in range(len(seris1x_)):
-            seris1x_[i] = seris1x_[i]*times
-        for i in range(len(seris2x_)):
-            seris2x_[i] = seris2x_[i]*times
-    minx = min(min(seris1y_),min(seris2y_))
-    maxx = max(max(seris1y_),max(seris2y_))
-    if(abs(maxx-minx)<90.0):
-        times = 100.0/abs(maxx-minx)
-        for i in range(len(seris1y_)):
-            seris1y_[i] = seris1y_[i]*times
-        for i in range(len(seris2y_)):
-            seris2y_[i] = seris2y_[i]*times
-    '''
     #得到相对平均值的振幅
     seris1x_[:] = seris1x_[:]-np.mean(seris1x_)
     seris1y_[:] = seris1y_[:]-np.mean(seris1y_)
     seris2x_[:] = seris2x_[:]-np.mean(seris2x_)
     seris2y_[:] = seris2y_[:]-np.mean(seris2y_)
-    '''
     transer_to_0_100([seris1x_,seris2x_])
     transer_to_0_100([seris1y_,seris2y_])
     return [seris1x_,seris1y_],[seris2x_,seris2y_]
@@ -177,89 +154,24 @@ def preprocess_for_Jaccrad_by_reduce(seris1x,seris1y,seris2x,seris2y):
 def compute_acquaintance_byarea_100(seris1,seris2):
     mat1 = np.zeros((100,100))
     for i in range(len(seris1[0])):
-        index1 = round(seris1[0][i])
-        index2 = round(seris1[1][i])
+        index1 = seris1[0][i]
+        index2 = seris1[1][i]
         mat1[index1,index2] = mat1[index1,index2] + 1
     mat2 = np.zeros((100,100))
     for i in range(len(seris2[0])):
-        index1 = round(seris2[0][i])
-        index2 = round(seris2[1][i])
+        index1 = seris2[0][i]
+        index2 = seris2[1][i]
         mat2[index1,index2] = mat2[index1,index2] + 1
-    all_count = 0
-    #除去点太少的区域,统计总面积
-    for i in range(100):
-        for j in range(100):
-            #if(mat1[i,j]<3):
-                #mat1[i,j] = 0
-            #if(mat2[i,j]<3):
-                #mat2[i,j] = 0
-            if(max(mat1[i][j],mat2[i][j])>0):
-                all_count = all_count + 1
     overlap_count = 0
-    #数重叠格子，除以总格子
+    all_count = 0
     for i in range(100):
         for j in range(100):
-            
-            if(if_mat1_mat2_i_j_neighbor(i,j,mat1,mat2)):
+            if(max(mat1[i][j],mat2[i][j])>1):
+                all_count = all_count + 1
+            if(min(mat1[i][j],mat2[i][j])>1):
                 overlap_count = overlap_count+1
     return float(overlap_count)/all_count
-#重叠的采样点数量除以总采样点数量
-def compute_acquaintance_byarea_100_weight(seris1,seris2):
-    mat1 = np.zeros((100,100))
-    for i in range(len(seris1[0])):
-        index1 = round(seris1[0][i])
-        index2 = round(seris1[1][i])
-        mat1[index1,index2] = mat1[index1,index2] + 1
-    mat2 = np.zeros((100,100))
-    for i in range(len(seris2[0])):
-        index1 = round(seris2[0][i])
-        index2 = round(seris2[1][i])
-        mat2[index1,index2] = mat2[index1,index2] + 1
-    #除去点太少的区域
-    all_count = 0.0
-    for i in range(100):
-        for j in range(100):
-            #if(mat1[i,j]<3):
-                #mat1[i,j] = 0
-            #if(mat2[i,j]<3):
-                #mat2[i,j] = 0
-            all_count=all_count+mat1[i][j]
-            all_count=all_count+mat2[i][j]
-    overlap_count = 0.0
-    
-    #相交的采样点数除以总采样点数
-    for i in range(100):
-        for j in range(100):
-            if(mat1[i][j]>0):
-                #log_stream_and_configure.logstream.write("mat1[i][j]="+str(mat1[i][j]))
-                neighbor_count = neighbor_point_count(mat1,mat2,i,j)
-                #log_stream_and_configure.logstream.write(" neighbor_count:"+str(neighbor_count)+"\n")
-                overlap_count = overlap_count + neighbor_count
-    return overlap_count/(all_count-overlap_count)
-
-
-def neighbor_point_count(mat1,mat2,index1,index2):
-    if(mat1[index1][index2]<=0):
-        return 0
-    count = 0
-    for i in range(index1-1,index1+2):
-        for j in range(index2-1,index2+2):
-            if(mat1[index1][index2]>0 and i>=0 and i<len(mat2) and j >=0 and j<len(mat2[0])):
-                if(mat2[i][j]>0):
-                    temp = mat1[index1][index2]-mat2[i][j]
-                    if(temp<=0):
-                        count = count + mat1[index1][index2]
-                        mat2[i][j] = mat2[i][j]-mat1[index1][index2]
-                        mat1[index1][index2] = 0
-                        return count
-                    else:
-                        count = count + mat2[i][j]
-                        mat1[index1][index2] = mat1[index1][index2]-mat2[i][j]
-                        mat2[i][j] = 0
-    return count
-
-
-#重叠的面积除以总分布面积
+#根据缩小后的分布算面积，一格的面积为1
 def compute_acquaintance_byarea_reduce(seris1,seris2):
     
     maxx = int(max(max(seris1[0]),max(seris2[0])))+1
@@ -283,12 +195,12 @@ def compute_acquaintance_byarea_reduce(seris1,seris2):
                 mat1[i,j] = 0
             if(mat2[i,j]<3):
                 mat2[i,j] = 0
-            if(max(mat1[i][j],mat2[i][j])>0):
-                all_count = all_count + 1
     for i in range(maxx):
         for j in range(maxy):
             #temp = str(mat1[i][j])+" "
             #logstream.write(temp)
+            if(max(mat1[i][j],mat2[i][j])>0):
+                all_count = all_count + 1
             if(if_mat1_mat2_i_j_neighbor(i,j,mat1,mat2)):
                 overlap_count = overlap_count+1
         #logstream.write("\n")
