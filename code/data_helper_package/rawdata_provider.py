@@ -37,9 +37,11 @@ class RawDataProvider:
             filePath = os.path.join(self.data_dir,filename)
             if(filename.endswith(".txt")):
                 self.__putinto_dict_byfilepath(filePath)
+
     #返回data目录下有多少口井
     def get_well_count(self):
         return len(self.wellname_well_headinfo_dict)
+
     #返回所有井的名字
     def get_well_allnames(self):
         names = []
@@ -76,8 +78,6 @@ class RawDataProvider:
             #跳过文件头部信息
             for i in range(7):
                 f.readline()
-            
-            
             #得到一行的数据列表
             temp = f.readline()
             i = 8

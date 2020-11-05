@@ -4,7 +4,7 @@
 创建时间：2020.10.14
 更新时间：2020.10.28
 '''
-from . import rawdata_provider
+import rawdata_provider
 import numpy as np
 '''
 is_valid_data(data):返回值布尔型，判断数据是否是有效值
