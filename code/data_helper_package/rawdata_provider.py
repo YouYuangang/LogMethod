@@ -91,7 +91,7 @@ class RawDataProvider:
         if(columnName.upper()=="RT"):
             for i in range(len(data)):
                 if(data[i]>2):
-                    data[i] = math.log(data[i],1.2)
+                    data[i] = math.log(data[i],1.1)
         return data[0:realRowCount]
      #根据井名，曲线名,开始深度，结束深度，返回一段数据
     def get_segement_column_floatData(self,wellName,columnName,startDepth,endDepth):

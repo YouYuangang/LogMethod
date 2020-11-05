@@ -9,6 +9,10 @@ import sys
 import os
 import numpy as np
 from data_helper_package import rawdata_provider
+font_dict={'family': 'Times New Roman',
+         'weight': 'normal',
+         'size': 16,
+         }
 def plot_log(depth,data,xlabel,ylabel):
     meanofdata = np.mean(data)
     plt.figure(figsize=(0.3, 6.5))
@@ -48,18 +52,16 @@ def plot_2_log(depth1,data1,xlabel1,ylabel1,depth2,data2,xlabel2,ylabel2):
         tick.set_rotation(-90)
     plt.xlabel(ylabel2)
     plt.show()
-def cross_plot2d_for_2well(series1,series2,namex,namey,title = "交会图"):
-    plt.scatter(series1[0],series1[1])
-    plt.scatter(series2[0],series2[1],c="g")
-    plt.xlabel(namex)
-    plt.ylabel(namey)
-    plt.title(title)
-    plt.show()
-def save_cross_plot2d_for_2well(series1,series2,namex,namey,path,title = "交会图"):
-    plt.scatter(series1[0],series1[1])
-    plt.scatter(series2[0],series2[1],c="g")
-    plt.xlabel(namex)
-    plt.ylabel(namey)
-    plt.title(title)
-    plt.savefig(path)
+#将两口井的交汇图绘制在平面图上，看重叠情况
+def cross_plot2d_for_2well(series1,series2,xlabel_ = "default",ylabel_="default",title = "cross plot",wellname1="well1",wellname2="well2",saveflag = False,path=""):
     plt.cla()
+    x1 = plt.scatter(series1[0],series1[1],c="r")
+    x2 = plt.scatter(series2[0],series2[1],c="b")
+    plt.xlabel(xlabel_,fontdict=font_dict)
+    plt.ylabel(ylabel_,fontdict=font_dict)
+    plt.legend((x1,x2),(wellname1,wellname2))
+    plt.title(title)
+    if(saveflag==True):
+        plt.savefig(path)
+    else:
+        plt.show()
