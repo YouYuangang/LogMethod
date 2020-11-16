@@ -78,6 +78,8 @@ class WellSegmentProvider:
             names.append(segmentname)
         return names
     def if_exist_segment(self,wellname,segmentname):
+        if (wellname not in self.wellname_segments_dict):
+            return False
         segments_dict = self.wellname_segments_dict[wellname].name_info_dict_ofsegment
         for segmentname_dict in segments_dict:
             if segmentname_dict==segmentname:

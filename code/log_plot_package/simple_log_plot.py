@@ -1,18 +1,8 @@
-#_*_coding:utf-8_*_
-'''
-作者：Y.G. You
-创建时间：2020.10.14
-更新时间：2020.10.28
-'''
 import matplotlib.pyplot as plt
 import sys
 import os
 import numpy as np
 from data_helper_package import rawdata_provider
-font_dict={'family': 'Times New Roman',
-         'weight': 'normal',
-         'size': 16,
-         }
 def plot_log(depth,data,xlabel,ylabel):
     meanofdata = np.mean(data)
     plt.figure(figsize=(0.3, 6.5))
@@ -27,7 +17,6 @@ def plot_log(depth,data,xlabel,ylabel):
     plt.ylabel(xlabel)
 
     plt.show()
-
 def plot_2_log(depth1,data1,xlabel1,ylabel1,depth2,data2,xlabel2,ylabel2):
     meanofdata1 = np.mean(data1)
     meanofdata2 = np.mean(data2)
@@ -52,16 +41,3 @@ def plot_2_log(depth1,data1,xlabel1,ylabel1,depth2,data2,xlabel2,ylabel2):
         tick.set_rotation(-90)
     plt.xlabel(ylabel2)
     plt.show()
-#将两口井的交汇图绘制在平面图上，看重叠情况
-def cross_plot2d_for_2well(series1,series2,xlabel_ = "default",ylabel_="default",title = "cross plot",wellname1="well1",wellname2="well2",saveflag = False,path=""):
-    plt.cla()
-    x1 = plt.scatter(series1[0],series1[1],c="r")
-    x2 = plt.scatter(series2[0],series2[1],c="b")
-    plt.xlabel(xlabel_,fontdict=font_dict)
-    plt.ylabel(ylabel_,fontdict=font_dict)
-    plt.legend((x1,x2),(wellname1,wellname2))
-    plt.title(title)
-    if(saveflag==True):
-        plt.savefig(path)
-    else:
-        plt.show()

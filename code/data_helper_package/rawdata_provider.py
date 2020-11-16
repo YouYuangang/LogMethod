@@ -5,12 +5,8 @@
 '''
 import sys
 import os.path
+sys.path.append(os.pardir)
 import re
-import math
-
-#项目根目录
-path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-print("path:"+path)
 '''
 RawDataProvider:返回所有井的名字，及对应的曲线名字。根据井的名字和曲线得到某列测井数据
         get_well_count():int 返回有多少口井
@@ -19,13 +15,15 @@ RawDataProvider:返回所有井的名字，及对应的曲线名字。根据井�
         get_Well_allcolumnnames(wellname):返回wellName井所有的列名（测井曲线名称）
         get_well_startdepth(wellname):返回测井数据开始的深度
         get_well_enddepth(wellname)：返回测井数据结束的深度
-        if_exist_column(wellname,columname):#判断某一井是否有columname测井曲线
         get_column_floatdata_byname(String wellName,String columnName):返回float型数组，wellName井columnName列的数据
         get_segement_column_floatData(self,wellName,columnName,startDepth,endDepth):返回某一深度区间的某列的测井数据
 '''
+#项目根目录
+path = "/Users/admin/Documents/测井/LogMethod-master2.0/data" #os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+print("path:"+path)
 class RawDataProvider:
     #数据的目录
-    data_dir=os.path.join(path,'data')
+    data_dir=path #os.path.join(path,'/data')
     #数据目录的文件列表
     filename_list = os.listdir(data_dir)
     #井名与该井文件路径对应关系
@@ -37,11 +35,9 @@ class RawDataProvider:
             filePath = os.path.join(self.data_dir,filename)
             if(filename.endswith(".txt")):
                 self.__putinto_dict_byfilepath(filePath)
-
     #返回data目录下有多少口井
     def get_well_count(self):
         return len(self.wellname_well_headinfo_dict)
-
     #返回所有井的名字
     def get_well_allnames(self):
         names = []
@@ -60,14 +56,6 @@ class RawDataProvider:
         return self.wellname_well_headinfo_dict[wellName].startDepth
     def get_well_enddepth(self,wellName):
         return self.wellname_well_headinfo_dict[wellName].endDepth
-    #判断某一井是否有columname测井曲线
-    def if_exist_column(self,wellname,columname):
-        wellHeadInfo = self.wellname_well_headinfo_dict[wellname]
-        allcolumn_names =[x.upper() for x in wellHeadInfo.columnNames]
-        if(columname in allcolumn_names):
-            return True
-        else:
-            return False
     #根据井名与曲线名返回一列数据
     def get_column_floatData(self,wellName,columnName):
         wellHeadInfo = self.wellname_well_headinfo_dict[wellName]
@@ -78,20 +66,16 @@ class RawDataProvider:
             #跳过文件头部信息
             for i in range(7):
                 f.readline()
+            #全部转为大写
+            
             #得到一行的数据列表
             temp = f.readline()
-            i = 8
             while temp!="" and temp!="\n":
                 strLine = re.sub(" +"," ",temp.strip('\n'))
                 strList = strLine.split(" ")
                 data.append(float(strList[toRead_index]))
                 temp = f.readline()
-                i = i+1
         realRowCount = int((wellHeadInfo.endDepth - wellHeadInfo.startDepth)/wellHeadInfo.level)
-        if(columnName.upper()=="RT"):
-            for i in range(len(data)):
-                if(data[i]>2):
-                    data[i] = math.log(data[i],1.2)
         return data[0:realRowCount]
      #根据井名，曲线名,开始深度，结束深度，返回一段数据
     def get_segement_column_floatData(self,wellName,columnName,startDepth,endDepth):
