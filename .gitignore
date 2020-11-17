@@ -1,0 +1,7 @@
+*.pyc
+output/
+*.bak
+logmethod_log.txt
+.vscode/
+data/ciflog¹¤Çø
+

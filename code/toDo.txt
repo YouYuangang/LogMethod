@@ -1,0 +1,32 @@
+》任务1.多井资料相似性判别
+》任务2.多井地层对比
+
+
+任务1步骤：
+    第一步.写个模块用来得到两个深度序列相似度，输入为两个深度序列（采用点数不一定相同，采样率相同），
+输出为一个0到1之间的浮点数，代表两个的相似度。越接近1相似度越高
+难点1.采样点数可能不同，这是因为地层可能被压缩导致的。
+    在第一步的基础上，对两口井不同的测井曲线运行第一步的算法，得到一组相似性数据，相当于一个相似性向量
+
+游沅刚近期任务：
+2020.10.17
+    写一个RawDataProvider类，向算法提供数据；
+    RawDataProvider:
+        get_well_count():int 返回有多少口井
+        get_well_allnames():返回所有井的名字
+        get_Well_allcolumnnames(String wellName):返回wellName井所有的列名
+        get_column_floatdata_byname(String wellName,String columnName):返回float型数组，wellName井columnName列的数据
+    done
+2020.10.19
+    写一个WellSegmentProvider类，根据井名提供该井的地层信息
+        get_segmentnames_fromwell(wellname):返回一个列表，为该井所有的地层名
+        if_exist_segment(wellname,segmentname):boolean型，wellname井是否含有segmentname地层
+        get_segment_columndata(wellname,segmentname,columnname)
+        get_segment_depthdata(wellname,segmentname)
+        get_wellnames_contains_segment(segmentname)
+        get_segment_startdepth(wellname,segment)
+        get_segment_enddepth(wellname,segment)
+        get_segment_colorstring(wellname,segment)
+    done
+
+

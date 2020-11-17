@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Plot Application="CifWin" version="20141117">
+<Context BackgroundColor="0XFFFFFFFF" BottomHeight="65" BottomMargin="20.0" BottomVisible="false" DepthUnit="meter" LeftMargin="5.0" RightMargin="30.0" TopHeight="500" TopMargin="5.0" TopVisible="true" borderVisible="true" pageWidth="279.39" rotationQuadrants="0" xStep="0.01" yStep="0.01"/>
+<TemplateSettings>
+<WellSettings DepthScale="500.0" Endep="4473.9688" FootLayerVisible="false" IsAutoDepth="false" IsTitleVisible="true" IsTrackHeaderVisible="true" Stdep="3925.0" WellOffsetX="0.0" WellOffsetY="0.0" bottomDepthStr="4473.9688" curveHeadArrangedType="0" curveVisibleType="false" factor="1.0" isShowCurveName="false" isWellIdVisible="false" modifyByWellDepth="false" oldDispDepthUnit="meter" topDepthStr="3925.0">
+<datapathes>
+<datapath src="CIF://D:\2016-川东开江古隆起\卧龙河\卧120\卧120"/>
+</datapathes>
+</WellSettings>
+<TrackSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<TrackType TrackType="com.flyfox.logplot.shape.track.Track"/>
+<TrackName Name="井眼指示"/>
+<ID id="8997558178446327113"/>
+<BoundingBox height="1097.9375999999993" width="18.539411291771458" x="0.0" y="55.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<parentID ID="-7021379895463215944"/>
+<subTitleVisible Visible="true"/>
+<IsAnnChange IsAnnChange="true"/>
+<subAlianMode alian="0"/>
+<SubTrackPos position="0.0"/>
+<BoundingBox active="false"/>
+<PositionActive active="false"/>
+<GridLineSetType gridLineSetType="1"/>
+<FrameLineSetType frameLineSetType="0"/>
+<LineMode lineMode="7"/>
+<LeftBorderAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LeftBorderAttribute>
+<RightBorderAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</RightBorderAttribute>
+<LeftScaleVisible leftScaleVisible="false"/>
+<CenterScaleVisible centerScaleVisible="false"/>
+<RightScaleVisible rightScaleVisible="false"/>
+<ScaleStep scaleStep="0.2"/>
+<LeftDisplayedLength leftDisplayedLength="2.0"/>
+<CenterDisplayedLength centerDisplayedLength="2.0"/>
+<RightDisplayedLength rightDisplayedLength="2.0"/>
+<ScaleAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</ScaleAttribute>
+<HeaderBox isVisible="true">
+<BoundingBox height="55.0" width="18.539411291771458" x="0.0" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+</HeaderBox>
+<Title isVisible="true" trackTitleAngle="0">
+<BoundingBox height="10.0" width="18.539411291771458" x="0.0" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="黑体" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+</Title>
+<GridAttribute GridType="0" GridVisible="0">
+<YStep Major="25.0" Mid="12.5" Minor="2.5" OriginalDepthScale="500.0"/>
+<XStep Major="2" Minor="10"/>
+<LogarithmScale End="1000.0" Start="1.0"/>
+<HoriMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMajorAttribute>
+<HorMidAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</HorMidAttribute>
+<HoriMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMinorAttribute>
+<VertMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMajorAttribute>
+<VertMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMinorAttribute>
+</GridAttribute>
+<CurveSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<CurveType CurveID="FillCurve2" CurveType="com.flyfox.logplot.shape.curve.newfillcurve.FillCurve"/>
+<CurveAttribute GroupId="" Id="-6691872737139143290" bottomDepthDefinedByUser="false" curveVisible="true" dataPathIndex="0" dataStartPos="true" depthMovedValue="0.0" endDep="3397.375" hint="false" isHandDep="false" isLogarithm="false" label="填充曲线" leftPos="0.0" leftScale="0" name="" rightPos="1.0" rightScale="100" scaleInLogProperties="true" startDep="3166.0" topDepthDefinedByUser="false" unit="" useClipping="true" valueAdd="false"/>
+<LabelAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<ScaleAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="14" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<UnitAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<BoundingBox height="15.0" width="18.539411291771458" x="0.0" y="40.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<FillCurveAttribute curveLabel="井径" disCurveName="false" dispCurve="true" drawCutoffItemhead="true" fillDirect="2" fillStyle="0" headHorTypeChb="false" leftScameScale="0" nameVisible="true" rightScameScale="100" scaleVisible="true" useSameScales="false">
+<FillCurveItemAttribute1>
+<fillItem baseValue="0.0" dataPathIndex="0" isLogarithm="false" leftValueString="0.0" name="0" rightValueString="1" scaleFactor="1.0" scaleType="Custom" userBaseLine="true">
+<attr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<fillAttr backgroundColor="0XFF00BFFF" forgroundColor="0XFF000000" sourceName="灰岩.png"/>
+</fillItem>
+</FillCurveItemAttribute1>
+<FillCurveItemAttribute2>
+<fillItem baseValue="0.0" dataPathIndex="0" isLogarithm="false" leftValueString="0" name="CAL" rightValueString="1" scaleFactor="1.0" scaleType="Custom" userBaseLine="false">
+<attr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<fillAttr backgroundColor="0XFFFFFFFF" forgroundColor="0XFFFFFFFF" sourceName=""/>
+</fillItem>
+</FillCurveItemAttribute2>
+<tableAttribute bgField="ID" bottomField="ID" dataPathIndex="0" fgField="ID" signField="ID" tableName="层位" topField="ID"/>
+</FillCurveAttribute>
+</CurveSetting>
+<CurveSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false" isVisible="false">
+<CurveType CurveID="FillCurve2" CurveType="com.flyfox.logplot.shape.curve.newfillcurve.FillCurve"/>
+<CurveAttribute GroupId="" Id="748915707752365658" bottomDepthDefinedByUser="false" curveVisible="true" dataPathIndex="0" dataStartPos="true" depthMovedValue="0.0" endDep="3397.375" hint="false" isHandDep="false" isLogarithm="false" label="填充曲线" leftPos="0.0" leftScale="0" name="" rightPos="1.0" rightScale="100" scaleInLogProperties="true" startDep="3166.0" topDepthDefinedByUser="false" unit="" useClipping="true" valueAdd="false"/>
+<LabelAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<ScaleAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="14" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<UnitAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<BoundingBox height="15.0" width="18.539411291771458" x="0.0" y="51.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<FillCurveAttribute curveLabel="" disCurveName="false" dispCurve="true" drawCutoffItemhead="true" fillDirect="2" fillStyle="0" headHorTypeChb="false" leftScameScale="0" nameVisible="true" rightScameScale="100" scaleVisible="true" useSameScales="false">
+<FillCurveItemAttribute1>
+<fillItem baseValue="0.0" dataPathIndex="0" isLogarithm="false" leftValueString="0" name="CAL" rightValueString="30" scaleFactor="0.03333333333333333" scaleType="Custom" userBaseLine="false">
+<attr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<fillAttr backgroundColor="0XFF00BFFF" forgroundColor="0XFF000000" sourceName=""/>
+</fillItem>
+</FillCurveItemAttribute1>
+<FillCurveItemAttribute2>
+<fillItem baseValue="0.0" dataPathIndex="0" isLogarithm="false" leftValueString="30" name="CAL" rightValueString="0" scaleFactor="-0.03333333333333333" scaleType="Custom" userBaseLine="false">
+<attr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<fillAttr backgroundColor="0XFFFFFFFF" forgroundColor="nullValue" sourceName=""/>
+</fillItem>
+</FillCurveItemAttribute2>
+<tableAttribute bgField="ID" bottomField="ID" dataPathIndex="0" fgField="ID" signField="ID" tableName="层位" topField="ID"/>
+</FillCurveAttribute>
+</CurveSetting>
+<CurveHeadOrder Order0="748915707752365658" Order1="-6691872737139143290"/>
+</TrackSetting>
+<TrackSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<TrackType TrackType="com.flyfox.logplot.shape.track.Track"/>
+<TrackName Name="岩性指示"/>
+<ID id="5078389960234621978"/>
+<BoundingBox height="1097.9375999999993" width="32.0" x="18.539411291771458" y="55.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<parentID ID="-7021379895463215944"/>
+<subTitleVisible Visible="true"/>
+<IsAnnChange IsAnnChange="true"/>
+<subAlianMode alian="0"/>
+<SubTrackPos position="0.0"/>
+<BoundingBox active="false"/>
+<PositionActive active="false"/>
+<GridLineSetType gridLineSetType="1"/>
+<FrameLineSetType frameLineSetType="0"/>
+<LineMode lineMode="7"/>
+<LeftBorderAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LeftBorderAttribute>
+<RightBorderAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</RightBorderAttribute>
+<LeftScaleVisible leftScaleVisible="false"/>
+<CenterScaleVisible centerScaleVisible="false"/>
+<RightScaleVisible rightScaleVisible="false"/>
+<ScaleStep scaleStep="0.2"/>
+<LeftDisplayedLength leftDisplayedLength="2.0"/>
+<CenterDisplayedLength centerDisplayedLength="2.0"/>
+<RightDisplayedLength rightDisplayedLength="2.0"/>
+<ScaleAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</ScaleAttribute>
+<HeaderBox isVisible="true">
+<BoundingBox height="55.0" width="32.0" x="18.539411291771458" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+</HeaderBox>
+<Title isVisible="true" trackTitleAngle="0">
+<BoundingBox height="10.0" width="32.0" x="18.539411291771458" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="黑体" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+</Title>
+<GridAttribute GridType="2" GridVisible="3">
+<YStep Major="25.0" Mid="12.5" Minor="2.5" OriginalDepthScale="500.0"/>
+<XStep Major="2" Minor="10"/>
+<LogarithmScale End="1000.0" Start="1.0"/>
+<HoriMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMajorAttribute>
+<HorMidAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.4" Style="1">
+<FillColor Color="0XFF000000"/>
+</HorMidAttribute>
+<HoriMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMinorAttribute>
+<VertMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF7F7F7F" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMajorAttribute>
+<VertMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMinorAttribute>
+</GridAttribute>
+<CurveSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<CurveType CurveID="CommonCurve" CurveType="com.flyfox.logplot.shape.curve.commoncurve.CommonCurve"/>
+<CurveAttribute GroupId="2" Id="-1120265334560929556" bottomDepthDefinedByUser="false" curveVisible="true" dataPathIndex="0" dataStartPos="true" depthMovedValue="0.0" endDep="4473.9688" hint="false" isHandDep="false" isLogarithm="false" label="自然伽马" leftPos="0.0" leftScale="0.0" name="GR" rightPos="1.0" rightScale="100" scaleInLogProperties="true" startDep="3925.0" topDepthDefinedByUser="false" unit="" useClipping="true" valueAdd="false"/>
+<LabelAttribute FillStyle="1" FontAngle="0" FontName="Monospaced" FontSize="16" FontStyle="1" LineColor="0XFFFE0000" LineWidth="0.3" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LabelAttribute>
+<ScaleAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="14" FontStyle="0" LineColor="0XFFFE0000" LineWidth="0.3" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</ScaleAttribute>
+<UnitAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFFE0000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</UnitAttribute>
+<BoundingBox height="15.0" width="32.0" x="18.539411291771458" y="40.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFFE0000" LineWidth="0.6" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<CurveAttribute1 colorMapCategory="SYSTEM" colorReverse="false" colorReversed="false" decimalDigits="2" dimensionTime="0" drawType="5" extract="3" fillDirection="0" highValue="10.0" ignoreNull="false" isCustomColor="false" isEdit="false" isSystemPreservedResource="false" lowValue="0.0" maxVal="-99999.0" minVal="-99999.0" nullValue="-99999.0" nullValueReplace="-9999.99" nullValueType="0" numberAlign="0" offset="0.0" orientation="0" resourceName="Sunbow.xml" scaleAlignType="1" scaleType="Custom" secondScale="0.0" secondScaleStr="" thirdScaleStr="" threeScale="0.0" tranColorNum="32" turnBackExceedLeft="false" turnBackExceedRight="false">
+<stickAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="1" Style="1">
+<FillColor Color="0XFF000000"/>
+</stickAttribute>
+<pointSymbolAttribute symbolSize="4" symbolType="SQUARE">
+<symbolColor FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFB84E13" LineWidth="0.265" Style="1">
+<FillColor Color="0XFFB84E13"/>
+</symbolColor>
+</pointSymbolAttribute>
+<textAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1">
+<FillColor Color="0XFF000000"/>
+</textAttr>
+<SecondAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFFE0000" LineWidth="0.6" Style="1">
+<FillColor Color="0XFF000000"/>
+</SecondAttr>
+<ThreeAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFFE0000" LineWidth="0.6" Style="1">
+<FillColor Color="0XFF000000"/>
+</ThreeAttr>
+<leftTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<rightTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+</CurveAttribute1>
+</CurveSetting>
+<CurveSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<CurveType CurveID="CommonCurve" CurveType="com.flyfox.logplot.shape.curve.commoncurve.CommonCurve"/>
+<CurveAttribute GroupId="" Id="-3157595681900808920" bottomDepthDefinedByUser="false" curveVisible="true" dataPathIndex="0" dataStartPos="true" depthMovedValue="0.0" endDep="4587.0" hint="false" isHandDep="false" isLogarithm="false" label="PE" leftPos="0.0" leftScale="0.0" name="PE" rightPos="1.0" rightScale="20.0" scaleInLogProperties="true" startDep="4112.0" topDepthDefinedByUser="false" unit="" useClipping="true" valueAdd="false"/>
+<LabelAttribute FillStyle="1" FontAngle="0" FontName="Arial" FontSize="16" FontStyle="1" LineColor="0XFFFFCB00" LineWidth="0.4" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LabelAttribute>
+<ScaleAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="14" FontStyle="0" LineColor="0XFFFFCB00" LineWidth="0.4" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</ScaleAttribute>
+<UnitAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFFFCB00" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</UnitAttribute>
+<BoundingBox height="15.0" width="32.0" x="18.539411291771458" y="25.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFFFFCB00" LineWidth="0.6" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<CurveAttribute1 colorMapCategory="SYSTEM" colorReverse="false" colorReversed="false" decimalDigits="2" dimensionTime="0" drawType="0" extract="10" fillDirection="0" highValue="10.0" ignoreNull="false" isCustomColor="false" isEdit="false" isSystemPreservedResource="false" lowValue="0.0" maxVal="-99999.0" minVal="-99999.0" nullValue="-99999.0" nullValueReplace="-9999.99" nullValueType="0" numberAlign="0" offset="0.0" orientation="0" resourceName="default.xml" scaleAlignType="1" scaleType="Auto_Left_Right" secondScale="0.0" secondScaleStr="" thirdScaleStr="" threeScale="0.0" tranColorNum="32" turnBackExceedLeft="false" turnBackExceedRight="false">
+<stickAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="1" Style="1">
+<FillColor Color="0XFF000000"/>
+</stickAttribute>
+<pointSymbolAttribute symbolSize="4" symbolType="SQUARE">
+<symbolColor FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFB06D48" LineWidth="0.265" Style="1">
+<FillColor Color="0XFFB06D48"/>
+</symbolColor>
+</pointSymbolAttribute>
+<textAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1">
+<FillColor Color="0XFF000000"/>
+</textAttr>
+<SecondAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFFFCB00" LineWidth="0.6" Style="1">
+<FillColor Color="0XFF000000"/>
+</SecondAttr>
+<ThreeAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFFFCB00" LineWidth="0.6" Style="1">
+<FillColor Color="0XFF000000"/>
+</ThreeAttr>
+<leftTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<rightTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+</CurveAttribute1>
+</CurveSetting>
+<CurveHeadOrder Order0="-1120265334560929556" Order1="-3157595681900808920"/>
+</TrackSetting>
+<TrackSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<TrackType TrackType="com.flyfox.logplot.shape.track.Track"/>
+<TrackName Name="深度"/>
+<ID id="4355683326862024995"/>
+<BoundingBox height="1097.9375999999993" width="14.500513057354627" x="50.53941129177146" y="55.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<parentID ID="-7021379895463215944"/>
+<subTitleVisible Visible="true"/>
+<IsAnnChange IsAnnChange="true"/>
+<subAlianMode alian="0"/>
+<SubTrackPos position="0.0"/>
+<BoundingBox active="false"/>
+<PositionActive active="false"/>
+<GridLineSetType gridLineSetType="1"/>
+<FrameLineSetType frameLineSetType="0"/>
+<LineMode lineMode="7"/>
+<LeftBorderAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LeftBorderAttribute>
+<RightBorderAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</RightBorderAttribute>
+<LeftScaleVisible leftScaleVisible="false"/>
+<CenterScaleVisible centerScaleVisible="false"/>
+<RightScaleVisible rightScaleVisible="false"/>
+<ScaleStep scaleStep="0.2"/>
+<LeftDisplayedLength leftDisplayedLength="2.0"/>
+<CenterDisplayedLength centerDisplayedLength="2.0"/>
+<RightDisplayedLength rightDisplayedLength="2.0"/>
+<ScaleAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</ScaleAttribute>
+<HeaderBox isVisible="true">
+<BoundingBox height="55.0" width="14.500513057354627" x="50.53941129177146" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+</HeaderBox>
+<Title isVisible="true" trackTitleAngle="0">
+<BoundingBox height="10.0" width="14.500513057354627" x="50.53941129177146" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="黑体" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+</Title>
+<GridAttribute GridType="0" GridVisible="0">
+<YStep Major="25.0" Mid="12.5" Minor="2.5" OriginalDepthScale="500.0"/>
+<XStep Major="2" Minor="10"/>
+<LogarithmScale End="1000.0" Start="1.0"/>
+<HoriMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMajorAttribute>
+<HorMidAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.4" Style="1">
+<FillColor Color="0XFF000000"/>
+</HorMidAttribute>
+<HoriMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMinorAttribute>
+<VertMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMajorAttribute>
+<VertMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMinorAttribute>
+</GridAttribute>
+<CurveSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<CurveType CurveID="DepthCurve" CurveType="com.flyfox.logplot.shape.curve.depthcurve.DepthCurve"/>
+<CurveAttribute GroupId="0" Id="4456372507317356458" bottomDepthDefinedByUser="false" curveVisible="true" dataPathIndex="0" dataStartPos="true" depthMovedValue="0.0" endDep="200.0" hint="false" isHandDep="false" isLogarithm="false" label="深度" leftPos="0.0" leftScale="6" name="" rightPos="1.0" rightScale="26" scaleInLogProperties="true" startDep="100.0" topDepthDefinedByUser="false" unit="(米)" useClipping="true" valueAdd="false"/>
+<LabelAttribute FillStyle="1" FontAngle="0" FontName="Monospaced" FontSize="16" FontStyle="1" LineColor="0XFF000000" LineWidth="0.3" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LabelAttribute>
+<ScaleAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="14" FontStyle="0" LineColor="0XFF000000" LineWidth="0.3" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</ScaleAttribute>
+<UnitAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</UnitAttribute>
+<BoundingBox height="15.0" width="14.500513057354627" x="50.53941129177146" y="40.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.3" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<CurveAttribute1 AreTicksVisible="true" DepthScaleVisible="true" HasRelationShapeWidthTrack="false" IsDepthScaleVisible="true" IsUnitVisible="true" MajorStep="25.0" MarkLabelsVisible="true" MarkPosition="9" MinorStep="2.5" OriginalDepthScale="500.0" Tails="0" TickPosition="3" TickPositionMid="3" altitude="0.0" altitudeVisible="false" borderValueType="0" majorTick="2.0" minorTick="2.0" verticalDepthVisible="false"/>
+<MajorTickAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</MajorTickAttribute>
+<MinorTickAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.2" Style="1">
+<FillColor Color="0XFF000000"/>
+</MinorTickAttribute>
+</CurveSetting>
+<CurveHeadOrder Order0="4456372507317356458"/>
+</TrackSetting>
+<TrackSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<TrackType TrackType="com.flyfox.logplot.shape.track.Track"/>
+<TrackName Name="地质"/>
+<ID id="-2924726374133695899"/>
+<BoundingBox height="1097.9375999999993" width="15.833333011418581" x="65.03992434912608" y="55.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<parentID ID="-7021379895463215944"/>
+<subTitleVisible Visible="true"/>
+<IsAnnChange IsAnnChange="true"/>
+<subAlianMode alian="0"/>
+<SubTrackPos position="0.0"/>
+<BoundingBox active="false"/>
+<PositionActive active="false"/>
+<GridLineSetType gridLineSetType="1"/>
+<FrameLineSetType frameLineSetType="0"/>
+<LineMode lineMode="7"/>
+<LeftBorderAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LeftBorderAttribute>
+<RightBorderAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</RightBorderAttribute>
+<LeftScaleVisible leftScaleVisible="false"/>
+<CenterScaleVisible centerScaleVisible="false"/>
+<RightScaleVisible rightScaleVisible="false"/>
+<ScaleStep scaleStep="0.2"/>
+<LeftDisplayedLength leftDisplayedLength="2.0"/>
+<CenterDisplayedLength centerDisplayedLength="2.0"/>
+<RightDisplayedLength rightDisplayedLength="2.0"/>
+<ScaleAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</ScaleAttribute>
+<HeaderBox isVisible="true">
+<BoundingBox height="55.0" width="15.833333011418581" x="65.03992434912608" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+</HeaderBox>
+<Title isVisible="true" trackTitleAngle="0">
+<BoundingBox height="10.0" width="15.833333011418581" x="65.03992434912608" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="黑体" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+</Title>
+<GridAttribute GridType="0" GridVisible="0">
+<YStep Major="25.0" Mid="12.5" Minor="2.5" OriginalDepthScale="500.0"/>
+<XStep Major="2" Minor="10"/>
+<LogarithmScale End="1000.0" Start="1.0"/>
+<HoriMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMajorAttribute>
+<HorMidAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</HorMidAttribute>
+<HoriMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMinorAttribute>
+<VertMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMajorAttribute>
+<VertMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMinorAttribute>
+</GridAttribute>
+<CurveSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<CurveType CurveID="TableCurve" CurveType="com.flyfox.logplot.shape.curve.tablecurve.TableCurve"/>
+<CurveAttribute GroupId="" Id="8237452477708155064" bottomDepthDefinedByUser="false" curveVisible="true" dataPathIndex="0" dataStartPos="true" depthMovedValue="0.0" endDep="200.0" hint="false" isHandDep="false" isLogarithm="false" label="" leftPos="0.0" leftScale="0.0" name="" rightPos="1.0" rightScale="100.0" scaleInLogProperties="true" startDep="100.0" topDepthDefinedByUser="false" unit="" useClipping="true" valueAdd="false"/>
+<LabelAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LabelAttribute>
+<ScaleAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="14" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</ScaleAttribute>
+<UnitAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</UnitAttribute>
+<BoundingBox height="20.0" width="15.833333011418581" x="65.03992434912608" y="35.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<TitleBox AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" bottomRrim="END_DEPTH" dataLocked="false" fastScrollingSkipped="false" hasTitle="true" isVisible="true" tableName="层位" titleLabel="地质分层" topRrim="START_DEPTH">
+<BoundingBox height="10.0" width="15.833333011418581" x="65.03992434912608" y="35.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+</TitleBox>
+<BodySetting autoCheck="true" distance="1.0" fieldName="COMMENT" fieldWidth="10.0" fontDistance="1.0" label="层段">
+<BodyAttr FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.08" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</BodyAttr>
+<CellAtt FillStyle="1" FontAngle="0" FontName="黑体" FontSize="30" FontStyle="1" LineColor="0XFFFF0000" LineWidth="0.08" Style="1">
+<FillColor Color="0XFF000000"/>
+</CellAtt>
+<BodyBoxAttr FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.08" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</BodyBoxAttr>
+<BorderBox leftBound="true" lowerBound="true" rightBound="true" upperBound="true"/>
+<TextAttr textAlign="5" textAngle="90"/>
+<ColorBlock colorAlgin="2" colorWidth="1.0" fontToClrWidth="0.0"/>
+<ImageAttr isImg="false" path=""/>
+</BodySetting>
+</CurveSetting>
+<CurveHeadOrder Order0="8237452477708155064"/>
+</TrackSetting>
+<TrackSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<TrackType TrackType="com.flyfox.logplot.shape.track.Track"/>
+<TrackName Name="三孔隙度曲线"/>
+<ID id="-3890862092855131586"/>
+<BoundingBox height="1097.9375999999993" width="36.09714605461091" x="80.87325736054467" y="55.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<parentID ID="-7021379895463215944"/>
+<subTitleVisible Visible="true"/>
+<IsAnnChange IsAnnChange="true"/>
+<subAlianMode alian="0"/>
+<SubTrackPos position="0.0"/>
+<BoundingBox active="false"/>
+<PositionActive active="false"/>
+<GridLineSetType gridLineSetType="1"/>
+<FrameLineSetType frameLineSetType="0"/>
+<LineMode lineMode="7"/>
+<LeftBorderAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LeftBorderAttribute>
+<RightBorderAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</RightBorderAttribute>
+<LeftScaleVisible leftScaleVisible="false"/>
+<CenterScaleVisible centerScaleVisible="false"/>
+<RightScaleVisible rightScaleVisible="false"/>
+<ScaleStep scaleStep="0.2"/>
+<LeftDisplayedLength leftDisplayedLength="2.0"/>
+<CenterDisplayedLength centerDisplayedLength="2.0"/>
+<RightDisplayedLength rightDisplayedLength="2.0"/>
+<ScaleAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</ScaleAttribute>
+<HeaderBox isVisible="true">
+<BoundingBox height="55.0" width="36.09714605461091" x="80.87325736054467" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+</HeaderBox>
+<Title isVisible="true" trackTitleAngle="0">
+<BoundingBox height="10.0" width="36.09714605461091" x="80.87325736054467" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="黑体" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+</Title>
+<GridAttribute GridType="2" GridVisible="3">
+<YStep Major="25.0" Mid="12.5" Minor="2.5" OriginalDepthScale="500.0"/>
+<XStep Major="1" Minor="5"/>
+<LogarithmScale End="1000.0" Start="1.0"/>
+<HoriMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMajorAttribute>
+<HorMidAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.4" Style="1">
+<FillColor Color="0XFF000000"/>
+</HorMidAttribute>
+<HoriMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMinorAttribute>
+<VertMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="nullValue" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMajorAttribute>
+<VertMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMinorAttribute>
+</GridAttribute>
+<CurveSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<CurveType CurveID="CommonCurve" CurveType="com.flyfox.logplot.shape.curve.commoncurve.CommonCurve"/>
+<CurveAttribute GroupId="6" Id="2837213842708701326" bottomDepthDefinedByUser="false" curveVisible="true" dataPathIndex="0" dataStartPos="true" depthMovedValue="0.0" endDep="6800.0" hint="false" isHandDep="false" isLogarithm="false" label="CNL" leftPos="0.0" leftScale="45" name="CNL" rightPos="1.0" rightScale="-15" scaleInLogProperties="true" startDep="5600.0" topDepthDefinedByUser="false" unit="" useClipping="true" valueAdd="false"/>
+<LabelAttribute FillStyle="1" FontAngle="0" FontName="Arial" FontSize="16" FontStyle="1" LineColor="0XFF0000FE" LineWidth="0.3" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LabelAttribute>
+<ScaleAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="14" FontStyle="0" LineColor="0XFF0000FE" LineWidth="0.3" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</ScaleAttribute>
+<UnitAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF0000FE" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</UnitAttribute>
+<BoundingBox height="15.0" width="36.09714605461091" x="80.87325736054467" y="40.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF0000FE" LineWidth="0.6" Style="12">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<CurveAttribute1 colorMapCategory="SYSTEM" colorReverse="false" colorReversed="false" decimalDigits="2" dimensionTime="0" drawType="0" extract="3" fillDirection="0" highValue="10.0" ignoreNull="false" isCustomColor="false" isEdit="false" isSystemPreservedResource="false" lowValue="0.0" maxVal="-99999.0" minVal="-99999.0" nullValue="-99999.0" nullValueReplace="-9999.99" nullValueType="0" numberAlign="0" offset="0.0" orientation="0" resourceName="default.xml" scaleAlignType="1" scaleType="Custom" secondScale="0.0" secondScaleStr="" thirdScaleStr="" threeScale="0.0" tranColorNum="32" turnBackExceedLeft="false" turnBackExceedRight="false">
+<stickAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="1" Style="1">
+<FillColor Color="0XFF000000"/>
+</stickAttribute>
+<pointSymbolAttribute symbolSize="4" symbolType="SQUARE">
+<symbolColor FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFB950AB" LineWidth="0.265" Style="1">
+<FillColor Color="0XFFB950AB"/>
+</symbolColor>
+</pointSymbolAttribute>
+<textAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1">
+<FillColor Color="0XFF000000"/>
+</textAttr>
+<SecondAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF0000FE" LineWidth="0.6" Style="12">
+<FillColor Color="0XFF000000"/>
+</SecondAttr>
+<ThreeAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF0000FE" LineWidth="0.6" Style="12">
+<FillColor Color="0XFF000000"/>
+</ThreeAttr>
+<leftTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<rightTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+</CurveAttribute1>
+</CurveSetting>
+<CurveSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<CurveType CurveID="CommonCurve" CurveType="com.flyfox.logplot.shape.curve.commoncurve.CommonCurve"/>
+<CurveAttribute GroupId="7" Id="-1242940406039720841" bottomDepthDefinedByUser="false" curveVisible="true" dataPathIndex="0" dataStartPos="true" depthMovedValue="0.0" endDep="4182.1875" hint="false" isHandDep="false" isLogarithm="false" label="时差" leftPos="0.0" leftScale="140" name="AC" rightPos="1.0" rightScale="40" scaleInLogProperties="true" startDep="3000.0" topDepthDefinedByUser="false" unit="" useClipping="true" valueAdd="false"/>
+<LabelAttribute FillStyle="1" FontAngle="0" FontName="Monospaced" FontSize="16" FontStyle="1" LineColor="0XFF000000" LineWidth="0.3" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LabelAttribute>
+<ScaleAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="14" FontStyle="0" LineColor="0XFF000000" LineWidth="0.3" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</ScaleAttribute>
+<UnitAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</UnitAttribute>
+<BoundingBox height="15.0" width="36.09714605461091" x="80.87325736054467" y="25.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.6" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<CurveAttribute1 colorMapCategory="SYSTEM" colorReverse="false" colorReversed="false" decimalDigits="2" dimensionTime="0" drawType="0" extract="3" fillDirection="0" highValue="10.0" ignoreNull="false" isCustomColor="false" isEdit="false" isSystemPreservedResource="false" lowValue="0.0" maxVal="-99999.0" minVal="-99999.0" nullValue="-99999.0" nullValueReplace="-9999.99" nullValueType="0" numberAlign="0" offset="0.0" orientation="0" resourceName="default.xml" scaleAlignType="1" scaleType="Custom" secondScale="0.0" secondScaleStr="" thirdScaleStr="" threeScale="0.0" tranColorNum="32" turnBackExceedLeft="false" turnBackExceedRight="false">
+<stickAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="1" Style="1">
+<FillColor Color="0XFF000000"/>
+</stickAttribute>
+<pointSymbolAttribute symbolSize="4" symbolType="SQUARE">
+<symbolColor FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFC3A25B" LineWidth="0.265" Style="1">
+<FillColor Color="0XFFC3A25B"/>
+</symbolColor>
+</pointSymbolAttribute>
+<textAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1">
+<FillColor Color="0XFF000000"/>
+</textAttr>
+<SecondAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFF000000"/>
+</SecondAttr>
+<ThreeAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFF000000"/>
+</ThreeAttr>
+<leftTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<rightTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+</CurveAttribute1>
+</CurveSetting>
+<CurveSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<CurveType CurveID="CommonCurve" CurveType="com.flyfox.logplot.shape.curve.commoncurve.CommonCurve"/>
+<CurveAttribute GroupId="5" Id="-7935386711800673179" bottomDepthDefinedByUser="false" curveVisible="true" dataPathIndex="0" dataStartPos="true" depthMovedValue="0.0" endDep="6800.0" hint="false" isHandDep="false" isLogarithm="false" label="DEN" leftPos="0.0" leftScale="2" name="DEN" rightPos="1.0" rightScale="3" scaleInLogProperties="true" startDep="5600.0" topDepthDefinedByUser="false" unit="" useClipping="true" valueAdd="false"/>
+<LabelAttribute FillStyle="1" FontAngle="0" FontName="Arial" FontSize="16" FontStyle="1" LineColor="0XFFFE0000" LineWidth="0.3" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LabelAttribute>
+<ScaleAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="14" FontStyle="0" LineColor="0XFFFE0000" LineWidth="0.3" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</ScaleAttribute>
+<UnitAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFFE0000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</UnitAttribute>
+<BoundingBox height="15.0" width="36.09714605461091" x="80.87325736054467" y="10.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFFE0000" LineWidth="0.6" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<CurveAttribute1 colorMapCategory="SYSTEM" colorReverse="false" colorReversed="false" decimalDigits="2" dimensionTime="0" drawType="0" extract="3" fillDirection="0" highValue="10.0" ignoreNull="false" isCustomColor="false" isEdit="false" isSystemPreservedResource="false" lowValue="0.0" maxVal="-99999.0" minVal="-99999.0" nullValue="-99999.0" nullValueReplace="-9999.99" nullValueType="0" numberAlign="0" offset="0.0" orientation="0" resourceName="default.xml" scaleAlignType="1" scaleType="Custom" secondScale="0.0" secondScaleStr="" thirdScaleStr="" threeScale="0.0" tranColorNum="32" turnBackExceedLeft="false" turnBackExceedRight="false">
+<stickAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="1" Style="1">
+<FillColor Color="0XFF000000"/>
+</stickAttribute>
+<pointSymbolAttribute symbolSize="4" symbolType="SQUARE">
+<symbolColor FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFB61044" LineWidth="0.265" Style="1">
+<FillColor Color="0XFFB61044"/>
+</symbolColor>
+</pointSymbolAttribute>
+<textAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1">
+<FillColor Color="0XFF000000"/>
+</textAttr>
+<SecondAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFFE0000" LineWidth="0.6" Style="1">
+<FillColor Color="0XFF000000"/>
+</SecondAttr>
+<ThreeAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFFE0000" LineWidth="0.6" Style="1">
+<FillColor Color="0XFF000000"/>
+</ThreeAttr>
+<leftTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<rightTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+</CurveAttribute1>
+</CurveSetting>
+<CurveHeadOrder Order0="2837213842708701326" Order1="-1242940406039720841" Order2="-7935386711800673179"/>
+</TrackSetting>
+<TrackSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<TrackType TrackType="com.flyfox.logplot.shape.track.Track"/>
+<TrackName Name="电阻率曲线"/>
+<ID id="2003280631614790092"/>
+<BoundingBox height="1097.9375999999993" width="48.290755703362045" x="116.97040341515557" y="55.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<parentID ID="-7021379895463215944"/>
+<subTitleVisible Visible="true"/>
+<IsAnnChange IsAnnChange="true"/>
+<subAlianMode alian="0"/>
+<SubTrackPos position="0.0"/>
+<BoundingBox active="false"/>
+<PositionActive active="false"/>
+<GridLineSetType gridLineSetType="1"/>
+<FrameLineSetType frameLineSetType="0"/>
+<LineMode lineMode="7"/>
+<LeftBorderAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</LeftBorderAttribute>
+<RightBorderAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</RightBorderAttribute>
+<LeftScaleVisible leftScaleVisible="false"/>
+<CenterScaleVisible centerScaleVisible="false"/>
+<RightScaleVisible rightScaleVisible="false"/>
+<ScaleStep scaleStep="0.2"/>
+<LeftDisplayedLength leftDisplayedLength="2.0"/>
+<CenterDisplayedLength centerDisplayedLength="2.0"/>
+<RightDisplayedLength rightDisplayedLength="2.0"/>
+<ScaleAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</ScaleAttribute>
+<HeaderBox isVisible="true">
+<BoundingBox height="55.0" width="48.290755703362045" x="116.97040341515557" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+</HeaderBox>
+<Title isVisible="true" trackTitleAngle="0">
+<BoundingBox height="10.0" width="48.290755703362045" x="116.97040341515557" y="0.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="黑体" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1"/>
+</Title>
+<GridAttribute GridType="3" GridVisible="3">
+<YStep Major="25.0" Mid="12.5" Minor="2.5" OriginalDepthScale="500.0"/>
+<XStep Major="2" Minor="10"/>
+<LogarithmScale End="100000.0" Start="1.0"/>
+<HoriMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMajorAttribute>
+<HorMidAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.4" Style="1">
+<FillColor Color="0XFF000000"/>
+</HorMidAttribute>
+<HoriMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMinorAttribute>
+<VertMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF7F7F7F" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMajorAttribute>
+<VertMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMinorAttribute>
+</GridAttribute>
+<CurveSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<CurveType CurveID="CommonCurve" CurveType="com.flyfox.logplot.shape.curve.commoncurve.CommonCurve"/>
+<CurveAttribute GroupId="" Id="2286856767421989667" bottomDepthDefinedByUser="false" curveVisible="true" dataPathIndex="0" dataStartPos="true" depthMovedValue="0.0" endDep="5500.0" hint="false" isHandDep="false" isLogarithm="true" label="深侧向" leftPos="0.0" leftScale="1.0" name="RLLD" rightPos="1.0" rightScale="100000.0" scaleInLogProperties="true" startDep="5000.0" topDepthDefinedByUser="false" unit="" useClipping="true" valueAdd="false"/>
+<LabelAttribute FillStyle="1" FontAngle="0" FontName="Monospaced" FontSize="16" FontStyle="1" LineColor="0XFFFE0000" LineWidth="0.3" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LabelAttribute>
+<ScaleAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="14" FontStyle="0" LineColor="0XFFFE0000" LineWidth="0.3" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</ScaleAttribute>
+<UnitAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFFE0000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</UnitAttribute>
+<BoundingBox height="12.0" width="48.290755703362045" x="116.97040341515557" y="43.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFFE0000" LineWidth="0.6" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<CurveAttribute1 colorMapCategory="SYSTEM" colorReverse="false" colorReversed="false" decimalDigits="2" dimensionTime="0" drawType="0" extract="3" fillDirection="0" highValue="10.0" ignoreNull="false" isCustomColor="false" isEdit="false" isSystemPreservedResource="false" lowValue="0.0" maxVal="-99999.0" minVal="-99999.0" nullValue="-99999.0" nullValueReplace="-9999.99" nullValueType="0" numberAlign="0" offset="0.0" orientation="0" resourceName="default.xml" scaleAlignType="1" scaleType="Custom" secondScale="0.0" secondScaleStr="" thirdScaleStr="" threeScale="0.0" tranColorNum="32" turnBackExceedLeft="false" turnBackExceedRight="false">
+<stickAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="1" Style="1">
+<FillColor Color="0XFF000000"/>
+</stickAttribute>
+<pointSymbolAttribute symbolSize="4" symbolType="SQUARE">
+<symbolColor FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFBC7471" LineWidth="0.265" Style="1">
+<FillColor Color="0XFFBC7471"/>
+</symbolColor>
+</pointSymbolAttribute>
+<textAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1">
+<FillColor Color="0XFF000000"/>
+</textAttr>
+<SecondAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFFE0000" LineWidth="0.6" Style="1">
+<FillColor Color="0XFF000000"/>
+</SecondAttr>
+<ThreeAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFFE0000" LineWidth="0.6" Style="1">
+<FillColor Color="0XFF000000"/>
+</ThreeAttr>
+<leftTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<rightTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+</CurveAttribute1>
+</CurveSetting>
+<CurveSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<CurveType CurveID="CommonCurve" CurveType="com.flyfox.logplot.shape.curve.commoncurve.CommonCurve"/>
+<CurveAttribute GroupId="" Id="435226195776331640" bottomDepthDefinedByUser="false" curveVisible="true" dataPathIndex="0" dataStartPos="true" depthMovedValue="0.0" endDep="5500.0" hint="false" isHandDep="false" isLogarithm="true" label="浅侧向" leftPos="0.0" leftScale="1.0" name="RLLS" rightPos="1.0" rightScale="100000.0" scaleInLogProperties="true" startDep="5000.0" topDepthDefinedByUser="false" unit="" useClipping="true" valueAdd="false"/>
+<LabelAttribute FillStyle="1" FontAngle="0" FontName="Monospaced" FontSize="16" FontStyle="1" LineColor="0XFF0000FE" LineWidth="0.3" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LabelAttribute>
+<ScaleAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="14" FontStyle="0" LineColor="0XFF0000FE" LineWidth="0.3" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</ScaleAttribute>
+<UnitAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF0000FE" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</UnitAttribute>
+<BoundingBox height="12.0" width="48.290755703362045" x="116.97040341515557" y="31.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF0000FE" LineWidth="0.6" Style="9">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<CurveAttribute1 colorMapCategory="SYSTEM" colorReverse="false" colorReversed="false" decimalDigits="2" dimensionTime="0" drawType="0" extract="3" fillDirection="0" highValue="10.0" ignoreNull="false" isCustomColor="false" isEdit="false" isSystemPreservedResource="false" lowValue="0.0" maxVal="-99999.0" minVal="-99999.0" nullValue="-99999.0" nullValueReplace="-9999.99" nullValueType="0" numberAlign="0" offset="0.0" orientation="0" resourceName="default.xml" scaleAlignType="1" scaleType="Custom" secondScale="0.0" secondScaleStr="" thirdScaleStr="" threeScale="0.0" tranColorNum="32" turnBackExceedLeft="false" turnBackExceedRight="false">
+<stickAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="1" Style="1">
+<FillColor Color="0XFF000000"/>
+</stickAttribute>
+<pointSymbolAttribute symbolSize="4" symbolType="SQUARE">
+<symbolColor FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFFC09B65" LineWidth="0.265" Style="1">
+<FillColor Color="0XFFC09B65"/>
+</symbolColor>
+</pointSymbolAttribute>
+<textAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1">
+<FillColor Color="0XFF000000"/>
+</textAttr>
+<SecondAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF0000FE" LineWidth="0.6" Style="9">
+<FillColor Color="0XFF000000"/>
+</SecondAttr>
+<ThreeAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF0000FE" LineWidth="0.6" Style="9">
+<FillColor Color="0XFF000000"/>
+</ThreeAttr>
+<leftTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<rightTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+</CurveAttribute1>
+</CurveSetting>
+<CurveSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false" isVisible="false">
+<CurveType CurveID="FillCurve2" CurveType="com.flyfox.logplot.shape.curve.newfillcurve.FillCurve"/>
+<CurveAttribute GroupId="" Id="8220359597100575437" bottomDepthDefinedByUser="false" curveVisible="true" dataPathIndex="0" dataStartPos="true" depthMovedValue="0.0" endDep="6800.0" hint="false" isHandDep="false" isLogarithm="true" label="填充曲线" leftPos="0.0" leftScale="1" name="" rightPos="1.0" rightScale="100000" scaleInLogProperties="true" startDep="5600.0" topDepthDefinedByUser="false" unit="" useClipping="true" valueAdd="false"/>
+<LabelAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<ScaleAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="14" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<UnitAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<BoundingBox height="15.0" width="48.290755703362045" x="116.97040341515557" y="27.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<FillCurveAttribute curveLabel="" disCurveName="false" dispCurve="false" drawCutoffItemhead="false" fillDirect="2" fillStyle="0" headHorTypeChb="false" leftScameScale="0" nameVisible="false" rightScameScale="100" scaleVisible="false" useSameScales="false">
+<FillCurveItemAttribute1>
+<fillItem baseValue="0.0" dataPathIndex="0" isLogarithm="true" leftValueString="1.0" name="RD" rightValueString="100000.0" scaleFactor="0.2" scaleType="Custom" userBaseLine="false">
+<attr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<fillAttr backgroundColor="0XFFFFCB00" forgroundColor="0XFF000000" sourceName=""/>
+</fillItem>
+</FillCurveItemAttribute1>
+<FillCurveItemAttribute2>
+<fillItem baseValue="0.0" dataPathIndex="0" isLogarithm="true" leftValueString="1.0" name="RS" rightValueString="100000.0" scaleFactor="0.2" scaleType="Custom" userBaseLine="false">
+<attr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<fillAttr backgroundColor="0XFFFFD700" forgroundColor="0XFF000000" sourceName=""/>
+</fillItem>
+</FillCurveItemAttribute2>
+<tableAttribute bgField="ID" bottomField="ID" dataPathIndex="0" fgField="ID" signField="ID" tableName="层位" topField="ID"/>
+</FillCurveAttribute>
+</CurveSetting>
+<CurveHeadOrder Order0="2286856767421989667" Order1="435226195776331640" Order2="8220359597100575437"/>
+</TrackSetting>
+<TrackSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<TrackType TrackType="com.flyfox.logplot.shape.track.Track"/>
+<TrackName Name="常规方法孔隙度"/>
+<ID id="-8691301409464531059"/>
+<BoundingBox height="1097.9375999999993" width="37.78" x="165.2611591185176" y="55.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<parentID ID="-7021379895463215944"/>
+<subTitleVisible Visible="true"/>
+<IsAnnChange IsAnnChange="true"/>
+<subAlianMode alian="0"/>
+<SubTrackPos position="0.0"/>
+<BoundingBox active="false"/>
+<PositionActive active="false"/>
+<GridLineSetType gridLineSetType="1"/>
+<FrameLineSetType frameLineSetType="0"/>
+<LineMode lineMode="7"/>
+<LeftBorderAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LeftBorderAttribute>
+<RightBorderAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</RightBorderAttribute>
+<LeftScaleVisible leftScaleVisible="false"/>
+<CenterScaleVisible centerScaleVisible="false"/>
+<RightScaleVisible rightScaleVisible="false"/>
+<ScaleStep scaleStep="0.2"/>
+<LeftDisplayedLength leftDisplayedLength="2.0"/>
+<CenterDisplayedLength centerDisplayedLength="2.0"/>
+<RightDisplayedLength rightDisplayedLength="2.0"/>
+<ScaleAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</ScaleAttribute>
+<HeaderBox isVisible="true">
+<BoundingBox height="55.0" width="37.78" x="165.2611591185176" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+</HeaderBox>
+<Title isVisible="true" trackTitleAngle="0">
+<BoundingBox height="10.0" width="37.78" x="165.2611591185176" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="黑体" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+</Title>
+<GridAttribute GridType="2" GridVisible="3">
+<YStep Major="25.0" Mid="12.5" Minor="2.5" OriginalDepthScale="500.0"/>
+<XStep Major="2" Minor="10"/>
+<LogarithmScale End="1000.0" Start="1.0"/>
+<HoriMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMajorAttribute>
+<HorMidAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</HorMidAttribute>
+<HoriMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMinorAttribute>
+<VertMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMajorAttribute>
+<VertMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMinorAttribute>
+</GridAttribute>
+<CurveSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<CurveType CurveID="CommonCurve" CurveType="com.flyfox.logplot.shape.curve.commoncurve.CommonCurve"/>
+<CurveAttribute GroupId="" Id="-8322027475322038116" bottomDepthDefinedByUser="false" curveVisible="true" dataPathIndex="0" dataStartPos="true" depthMovedValue="0.0" endDep="5500.0" hint="false" isHandDep="false" isLogarithm="false" label="PIGE" leftPos="0.0" leftScale="0.0" name="PIGE" rightPos="1.0" rightScale="0.1" scaleInLogProperties="true" startDep="5100.0" topDepthDefinedByUser="false" unit="" useClipping="true" valueAdd="false"/>
+<LabelAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<ScaleAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="14" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<UnitAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<BoundingBox height="15.0" width="37.78" x="165.2611591185176" y="40.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<CurveAttribute1 colorMapCategory="SYSTEM" colorReverse="false" colorReversed="false" decimalDigits="2" dimensionTime="1" drawType="0" extract="10" fillDirection="0" highValue="10.0" ignoreNull="true" isCustomColor="false" isEdit="false" isSystemPreservedResource="false" lowValue="0.0" maxVal="-99999.0" minVal="-99999.0" nullValue="-99999.0" nullValueReplace="0.0" nullValueType="0" numberAlign="0" offset="0.0" orientation="0" resourceName="Heated.xml" scaleAlignType="1" scaleType="Custom" secondScale="0.0" secondScaleStr="" thirdScaleStr="" threeScale="0.0" tranColorNum="32" turnBackExceedLeft="false" turnBackExceedRight="false">
+<stickAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="1" Style="1">
+<FillColor Color="0XFF000000"/>
+</stickAttribute>
+<pointSymbolAttribute symbolSize="4" symbolType="SQUARE">
+<symbolColor FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1">
+<FillColor Color="0XFF000000"/>
+</symbolColor>
+</pointSymbolAttribute>
+<textAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1">
+<FillColor Color="0XFF000000"/>
+</textAttr>
+<SecondAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1">
+<FillColor Color="0XFF000000"/>
+</SecondAttr>
+<ThreeAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1">
+<FillColor Color="0XFF000000"/>
+</ThreeAttr>
+<leftTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<rightTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+</CurveAttribute1>
+</CurveSetting>
+<CurveSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<CurveType CurveID="CommonCurve" CurveType="com.flyfox.logplot.shape.curve.commoncurve.CommonCurve"/>
+<CurveAttribute GroupId="" Id="4411179455118703749" bottomDepthDefinedByUser="false" curveVisible="true" dataPathIndex="0" dataStartPos="true" depthMovedValue="0.0" endDep="5500.0" hint="false" isHandDep="false" isLogarithm="false" label="声波孔隙度" leftPos="0.0" leftScale="0.0" name="SONPHI" rightPos="1.0" rightScale="0.1" scaleInLogProperties="true" startDep="5100.0" topDepthDefinedByUser="false" unit="" useClipping="true" valueAdd="false"/>
+<LabelAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<ScaleAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="14" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<UnitAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<BoundingBox height="15.0" width="37.78" x="165.2611591185176" y="25.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF0000FF" LineWidth="0.6" Style="1"/>
+<CurveAttribute1 colorMapCategory="SYSTEM" colorReverse="false" colorReversed="false" decimalDigits="2" dimensionTime="1" drawType="0" extract="10" fillDirection="0" highValue="10.0" ignoreNull="true" isCustomColor="false" isEdit="false" isSystemPreservedResource="false" lowValue="0.0" maxVal="-99999.0" minVal="-99999.0" nullValue="-99999.0" nullValueReplace="0.0" nullValueType="0" numberAlign="0" offset="0.0" orientation="0" resourceName="Heated.xml" scaleAlignType="1" scaleType="Custom" secondScale="0.0" secondScaleStr="" thirdScaleStr="" threeScale="0.0" tranColorNum="32" turnBackExceedLeft="false" turnBackExceedRight="false">
+<stickAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="1" Style="1"/>
+<pointSymbolAttribute symbolSize="4" symbolType="SQUARE">
+<symbolColor FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1">
+<FillColor Color="0XFF000000"/>
+</symbolColor>
+</pointSymbolAttribute>
+<textAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<SecondAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<ThreeAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<leftTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<rightTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+</CurveAttribute1>
+</CurveSetting>
+<CurveHeadOrder Order0="-8322027475322038116" Order1="4411179455118703749"/>
+</TrackSetting>
+<TrackSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<TrackType TrackType="com.flyfox.logplot.shape.track.Track"/>
+<TrackName Name="泥质含量 "/>
+<ID id="-1371973440126374397"/>
+<BoundingBox height="1097.9375999999993" width="40.0" x="203.0411591185176" y="55.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<parentID ID="-7021379895463215944"/>
+<subTitleVisible Visible="true"/>
+<IsAnnChange IsAnnChange="true"/>
+<subAlianMode alian="0"/>
+<SubTrackPos position="0.0"/>
+<BoundingBox active="false"/>
+<PositionActive active="false"/>
+<GridLineSetType gridLineSetType="1"/>
+<FrameLineSetType frameLineSetType="0"/>
+<LineMode lineMode="7"/>
+<LeftBorderAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LeftBorderAttribute>
+<RightBorderAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</RightBorderAttribute>
+<LeftScaleVisible leftScaleVisible="false"/>
+<CenterScaleVisible centerScaleVisible="false"/>
+<RightScaleVisible rightScaleVisible="false"/>
+<ScaleStep scaleStep="0.2"/>
+<LeftDisplayedLength leftDisplayedLength="2.0"/>
+<CenterDisplayedLength centerDisplayedLength="2.0"/>
+<RightDisplayedLength rightDisplayedLength="2.0"/>
+<ScaleAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</ScaleAttribute>
+<HeaderBox isVisible="true">
+<BoundingBox height="55.0" width="40.0" x="203.0411591185176" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.212" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+</HeaderBox>
+<Title isVisible="true" trackTitleAngle="0">
+<BoundingBox height="10.0" width="40.0" x="203.0411591185176" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.212" Style="1"/>
+</Title>
+<GridAttribute GridType="2" GridVisible="3">
+<YStep Major="25.0" Mid="12.5" Minor="2.5" OriginalDepthScale="500.0"/>
+<XStep Major="2" Minor="10"/>
+<LogarithmScale End="1000.0" Start="1.0"/>
+<HoriMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMajorAttribute>
+<HorMidAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</HorMidAttribute>
+<HoriMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMinorAttribute>
+<VertMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMajorAttribute>
+<VertMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMinorAttribute>
+</GridAttribute>
+<CurveSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<CurveType CurveID="CommonCurve" CurveType="com.flyfox.logplot.shape.curve.commoncurve.CommonCurve"/>
+<CurveAttribute GroupId="" Id="921688710731297899" bottomDepthDefinedByUser="false" curveVisible="true" dataPathIndex="0" dataStartPos="true" depthMovedValue="0.0" endDep="5500.0" hint="false" isHandDep="false" isLogarithm="false" label="VSH" leftPos="0.0" leftScale="0.0" name="VSH" rightPos="1.0" rightScale="1" scaleInLogProperties="true" startDep="5100.0" topDepthDefinedByUser="false" unit="" useClipping="true" valueAdd="false"/>
+<LabelAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<ScaleAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="14" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<UnitAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.212" Style="1"/>
+<BoundingBox height="15.0" width="40.0" x="203.0411591185176" y="40.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<CurveAttribute1 colorMapCategory="SYSTEM" colorReverse="false" colorReversed="false" decimalDigits="2" dimensionTime="1" drawType="0" extract="10" fillDirection="0" highValue="10.0" ignoreNull="true" isCustomColor="false" isEdit="false" isSystemPreservedResource="false" lowValue="0.0" maxVal="-99999.0" minVal="-99999.0" nullValue="-99999.0" nullValueReplace="0.0" nullValueType="0" numberAlign="0" offset="0.0" orientation="0" resourceName="Heated.xml" scaleAlignType="1" scaleType="Custom" secondScale="0.0" secondScaleStr="" thirdScaleStr="" threeScale="0.0" tranColorNum="32" turnBackExceedLeft="false" turnBackExceedRight="false">
+<stickAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="1" Style="1"/>
+<pointSymbolAttribute symbolSize="4" symbolType="SQUARE">
+<symbolColor FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1">
+<FillColor Color="0XFF000000"/>
+</symbolColor>
+</pointSymbolAttribute>
+<textAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.212" Style="1"/>
+<SecondAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.212" Style="1"/>
+<ThreeAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.212" Style="1"/>
+<leftTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.212" Style="1"/>
+<rightTurnBackAttr FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.212" Style="1"/>
+</CurveAttribute1>
+</CurveSetting>
+<CurveHeadOrder Order0="921688710731297899"/>
+</TrackSetting>
+<TrackSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<TrackType TrackType="com.flyfox.logplot.shape.track.Track"/>
+<TrackName Name="解释结论"/>
+<ID id="1950914876382766663"/>
+<BoundingBox height="1097.9375999999993" width="24.23000071269274" x="243.0411591185176" y="55.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<parentID ID="-7021379895463215944"/>
+<subTitleVisible Visible="true"/>
+<IsAnnChange IsAnnChange="true"/>
+<subAlianMode alian="0"/>
+<SubTrackPos position="0.0"/>
+<BoundingBox active="false"/>
+<PositionActive active="false"/>
+<GridLineSetType gridLineSetType="1"/>
+<FrameLineSetType frameLineSetType="0"/>
+<LineMode lineMode="7"/>
+<LeftBorderAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</LeftBorderAttribute>
+<RightBorderAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</RightBorderAttribute>
+<LeftScaleVisible leftScaleVisible="false"/>
+<CenterScaleVisible centerScaleVisible="false"/>
+<RightScaleVisible rightScaleVisible="false"/>
+<ScaleStep scaleStep="0.2"/>
+<LeftDisplayedLength leftDisplayedLength="2.0"/>
+<CenterDisplayedLength centerDisplayedLength="2.0"/>
+<RightDisplayedLength rightDisplayedLength="2.0"/>
+<ScaleAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</ScaleAttribute>
+<HeaderBox isVisible="true">
+<BoundingBox height="55.0" width="24.23000071269274" x="243.0411591185176" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+</HeaderBox>
+<Title isVisible="true" trackTitleAngle="0">
+<BoundingBox height="10.0" width="24.23000071269274" x="243.0411591185176" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="黑体" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+</Title>
+<GridAttribute GridType="0" GridVisible="0">
+<YStep Major="25.0" Mid="12.5" Minor="2.5" OriginalDepthScale="500.0"/>
+<XStep Major="2" Minor="10"/>
+<LogarithmScale End="1000.0" Start="1.0"/>
+<HoriMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMajorAttribute>
+<HorMidAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</HorMidAttribute>
+<HoriMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMinorAttribute>
+<VertMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMajorAttribute>
+<VertMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMinorAttribute>
+</GridAttribute>
+<CurveSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<CurveType CurveID="ResultCurve" CurveType="com.flyfox.logplot.shape.curve.result.ResultCurve"/>
+<CurveAttribute GroupId="" Id="-8550940992441146184" bottomDepthDefinedByUser="false" curveVisible="true" dataPathIndex="0" dataStartPos="true" depthMovedValue="0.0" endDep="200.0" hint="false" isHandDep="false" isLogarithm="false" label="解释&#13;&#10;结论" leftPos="0.0" leftScale="0.0" name="解释结论" rightPos="1.0" rightScale="100.0" scaleInLogProperties="true" startDep="100.0" topDepthDefinedByUser="false" unit="" useClipping="false" valueAdd="false"/>
+<LabelAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LabelAttribute>
+<ScaleAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="14" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</ScaleAttribute>
+<UnitAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.26" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</UnitAttribute>
+<BoundingBox height="15.0" width="24.23000071269274" x="243.0411591185176" y="40.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</FrameAttribute>
+<OilCurveAttribute LeftImgScale="0" LeftTextScale="50" RigthImgScale="50" RigthTextScale="100" TextAlign="5" depthLinkage="false" depthPrecision="1" isCanModify="true" isDisplatLayerNumber="true" isDisplatResultSymbol="true" isHeadHorType="false" isLegendVisible="false" rowCounts="1"/>
+</CurveSetting>
+<CurveHeadOrder Order0="-8550940992441146184"/>
+</TrackSetting>
+<TrackSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<TrackType TrackType="com.flyfox.logplot.shape.track.Track"/>
+<TrackName Name="录井显示"/>
+<ID id="-7198045495557803080"/>
+<BoundingBox height="1097.9375999999993" width="40.0" x="267.27115983121035" y="55.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1"/>
+<parentID ID="-7021379895463215944"/>
+<subTitleVisible Visible="true"/>
+<IsAnnChange IsAnnChange="true"/>
+<subAlianMode alian="0"/>
+<SubTrackPos position="0.0"/>
+<BoundingBox active="false"/>
+<PositionActive active="false"/>
+<GridLineSetType gridLineSetType="1"/>
+<FrameLineSetType frameLineSetType="0"/>
+<LineMode lineMode="7"/>
+<LeftBorderAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LeftBorderAttribute>
+<RightBorderAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</RightBorderAttribute>
+<LeftScaleVisible leftScaleVisible="false"/>
+<CenterScaleVisible centerScaleVisible="false"/>
+<RightScaleVisible rightScaleVisible="false"/>
+<ScaleStep scaleStep="0.2"/>
+<LeftDisplayedLength leftDisplayedLength="2.0"/>
+<CenterDisplayedLength centerDisplayedLength="2.0"/>
+<RightDisplayedLength rightDisplayedLength="2.0"/>
+<ScaleAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</ScaleAttribute>
+<HeaderBox isVisible="true">
+<BoundingBox height="55.0" width="40.0" x="267.27115983121035" y="0.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+</HeaderBox>
+<Title isVisible="true" trackTitleAngle="0">
+<BoundingBox height="10.0" width="40.0" x="267.27115983121035" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+</Title>
+<GridAttribute GridType="0" GridVisible="0">
+<YStep Major="25.0" Mid="12.5" Minor="2.5" OriginalDepthScale="500.0"/>
+<XStep Major="2" Minor="10"/>
+<LogarithmScale End="1000.0" Start="1.0"/>
+<HoriMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMajorAttribute>
+<HorMidAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</HorMidAttribute>
+<HoriMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMinorAttribute>
+<VertMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMajorAttribute>
+<VertMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMinorAttribute>
+</GridAttribute>
+<CurveSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<CurveType CurveID="LevelTextCurve" CurveType="com.flyfox.logplot.shape.curve.levelTextCurve.LevelTextCurve"/>
+<CurveAttribute GroupId="" Id="-6740118332627157975" bottomDepthDefinedByUser="false" curveVisible="true" dataPathIndex="0" dataStartPos="true" depthMovedValue="0.0" endDep="200.0" hint="false" isHandDep="false" isLogarithm="false" label="录井显示" leftPos="0.0" leftScale="0" name="录井显示" rightPos="1.0" rightScale="100" scaleInLogProperties="true" startDep="100.0" topDepthDefinedByUser="false" unit="" useClipping="true" valueAdd="false"/>
+<LabelAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<ScaleAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="14" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<UnitAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<BoundingBox height="15.0" width="40.0" x="267.27115983121035" y="40.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="1" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<LevelTextCurveAttribute borderColorRGB="-16777216" borderStyle="1" borderWidth="1.0" colorName="" drawType="0" endName="结束深度" hong="${STR//_CTAB(录井显示,名称)}" startName="起始深度"/>
+</CurveSetting>
+<CurveHeadOrder Order0="-6740118332627157975"/>
+</TrackSetting>
+<TrackSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<TrackType TrackType="com.flyfox.logplot.shape.track.Track"/>
+<TrackName Name="试油结果"/>
+<ID id="3702688897484048412"/>
+<BoundingBox height="1097.9375999999993" width="40.0" x="307.27115983121035" y="55.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1"/>
+<parentID ID="-7021379895463215944"/>
+<subTitleVisible Visible="true"/>
+<IsAnnChange IsAnnChange="true"/>
+<subAlianMode alian="0"/>
+<SubTrackPos position="0.0"/>
+<BoundingBox active="false"/>
+<PositionActive active="false"/>
+<GridLineSetType gridLineSetType="1"/>
+<FrameLineSetType frameLineSetType="0"/>
+<LineMode lineMode="7"/>
+<LeftBorderAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</LeftBorderAttribute>
+<RightBorderAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFFFFFFFF"/>
+</RightBorderAttribute>
+<LeftScaleVisible leftScaleVisible="false"/>
+<CenterScaleVisible centerScaleVisible="false"/>
+<RightScaleVisible rightScaleVisible="false"/>
+<ScaleStep scaleStep="0.2"/>
+<LeftDisplayedLength leftDisplayedLength="2.0"/>
+<CenterDisplayedLength centerDisplayedLength="2.0"/>
+<RightDisplayedLength rightDisplayedLength="2.0"/>
+<ScaleAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</ScaleAttribute>
+<HeaderBox isVisible="true">
+<BoundingBox height="55.0" width="40.0" x="307.27115983121035" y="0.0"/>
+<FrameAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+</HeaderBox>
+<Title isVisible="true" trackTitleAngle="0">
+<BoundingBox height="10.0" width="40.0" x="307.27115983121035" y="0.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+</Title>
+<GridAttribute GridType="0" GridVisible="0">
+<YStep Major="25.0" Mid="12.5" Minor="2.5" OriginalDepthScale="500.0"/>
+<XStep Major="2" Minor="10"/>
+<LogarithmScale End="1000.0" Start="1.0"/>
+<HoriMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMajorAttribute>
+<HorMidAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</HorMidAttribute>
+<HoriMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</HoriMinorAttribute>
+<VertMajorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.5" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMajorAttribute>
+<VertMinorAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF969696" LineWidth="0.3" Style="1">
+<FillColor Color="0XFF000000"/>
+</VertMinorAttribute>
+</GridAttribute>
+<CurveSetting AdaptiveHeight="false" AdaptiveWidth="false" RespondHeightAdjusted="true" RespondWidthAdjusted="true" bindingDepth="false" dataLocked="false" fastScrollingSkipped="false">
+<CurveType CurveID="LevelTextCurve" CurveType="com.flyfox.logplot.shape.curve.levelTextCurve.LevelTextCurve"/>
+<CurveAttribute GroupId="" Id="-4977248267918293219" bottomDepthDefinedByUser="false" curveVisible="true" dataPathIndex="0" dataStartPos="true" depthMovedValue="0.0" endDep="200.0" hint="false" isHandDep="false" isLogarithm="false" label="试油结论" leftPos="0.0" leftScale="0" name="试油结论" rightPos="1.0" rightScale="100" scaleInLogProperties="true" startDep="100.0" topDepthDefinedByUser="false" unit="" useClipping="true" valueAdd="false"/>
+<LabelAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="16" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<ScaleAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="14" FontStyle="0" LineColor="0XFF000000" LineWidth="0.4" Style="1"/>
+<UnitAttribute FillStyle="1" FontAngle="0" FontName="Dialog" FontSize="12" FontStyle="0" LineColor="0XFF000000" LineWidth="0.265" Style="1"/>
+<BoundingBox height="15.0" width="40.0" x="307.27115983121035" y="40.0"/>
+<FrameAttribute FillStyle="2" FontAngle="0" FontName="Dialog" FontSize="20" FontStyle="1" LineColor="0XFFFF0000" LineWidth="0.4" Style="1"/>
+<LevelTextCurveAttribute borderColorRGB="-16777216" borderStyle="1" borderWidth="1.0" colorName="" drawType="0" endName="结束深度" hong="${STR//_CTAB(试油结论,名称)}" startName="起始深度"/>
+</CurveSetting>
+<CurveHeadOrder Order0="-4977248267918293219"/>
+</TrackSetting>
+<WellSettings/>
+</TemplateSettings>
+</Plot>
