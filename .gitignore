@@ -3,5 +3,5 @@ output/
 *.bak
 logmethod_log.txt
 .vscode/
-data/ciflog¹¤Çø
-
+data/data_with_ghost
+.DS_Store
